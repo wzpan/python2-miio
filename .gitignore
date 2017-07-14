@@ -1,0 +1,6 @@
+*~
+*.pyc
+#*#
+.#*
+dist
+MusicBoxApi.egg-info/
