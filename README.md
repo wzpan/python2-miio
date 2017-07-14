@@ -16,7 +16,7 @@ pip install python2-miio
 * detect miio components:
 
 ``` sh
-miio discover
+miio2 discover
 ```
 
 * write your code to send messages to your miio components.
