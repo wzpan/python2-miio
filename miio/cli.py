@@ -4,11 +4,6 @@ import click
 import ast
 import sys
 
-if sys.version_info < (3, 4):
-    print("To use this script you need python 3.4 or newer, got %s" %
-          sys.version_info)
-    sys.exit(1)
-
 import miio  # noqa: E402
 
 _LOGGER = logging.getLogger(__name__)
